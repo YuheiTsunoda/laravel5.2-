@@ -1,0 +1,24 @@
+version: '2'
+services:
+  mysql:
+    build: "./docker/mysql"
+    container_name: "mysql"
+    ports:
+     - "3306:3306"
+    environment:
+      MYSQL_USER: user
+      MYSQL_PASSWORD: user-pwd
+      MYSQL_DATABASE: my-database
+      MYSQL_ROOT_PASSWORD: root-pwd
+      MYSQL_ONETIME_PASSWORD: gaiM6aem
+    volumes:
+     - "./db:/init-data"
+  app:
+    build: "./docker/app"
+    container_name: "app"
+    ports:
+      - "8081:80"
+    volumes:
+     - "./src/quickstart:/var/www/html"
+    links:
+     - "mysql"

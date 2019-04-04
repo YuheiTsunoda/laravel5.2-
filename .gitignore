@@ -1,0 +1,16 @@
+# unused files.
+src/.DS_Store
+
+# env files.
+src/.env
+
+# package files.
+src/vendor
+src/node_modules
+
+# deploy files.
+src/public/css
+src/public/js
+
+src/storage/framework
+src/storage/logs
