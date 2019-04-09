@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c14db2a8-59e0-4d30-8546-80c74deca2ee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/quickstart/app/Http/Controllers/TaskController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/quickstart/app/Http/Controllers/TaskController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/quickstart/app/Repositories/TaskRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/quickstart/app/Repositories/TaskRepository.php" afterDir="false" />
-    </list>
+    <list default="true" id="c14db2a8-59e0-4d30-8546-80c74deca2ee" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -275,12 +270,12 @@
       <workItem from="1554771585473" duration="1835000" />
       <workItem from="1554774371783" duration="3573000" />
       <workItem from="1554783979845" duration="6652000" />
-      <workItem from="1554794182053" duration="475000" />
+      <workItem from="1554794182053" duration="777000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19640000" />
+    <option name="totallyTimeSpent" value="19942000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -293,7 +288,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-1080" width="1920" height="1080" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11341853" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
