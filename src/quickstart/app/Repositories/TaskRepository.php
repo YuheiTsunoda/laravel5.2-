@@ -12,6 +12,7 @@ class TaskRepository
      * @param  User  $user
      * @return Collection
      */
+
     public function forUser(User $user)
     {
         return $user->tasks()
